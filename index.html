@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpendWise - Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar">
+      <div>
+        <div class="logo"><span class="logo-icon">$</span><h1>SpendWise</h1></div>
+        <nav class="nav-menu">
+          <a href="#" class="nav-item active"><span>📊</span> Dashboard</a>
+          <a href="#" class="nav-item"><span>💳</span> Transactions</a>
+          <a href="#" class="nav-item"><span>📈</span> Analytics</a>
+          <a href="#" class="nav-item"><span>🎯</span> Budgets</a>
+          <a href="#" class="nav-item"><span>⚙️</span> Settings</a>
+        </nav>
+      </div>
+      <div class="sidebar-footer">
+        <div class="user-card">
+          <div class="avatar">AK</div>
+          <div><p class="user-name">Alex Kim</p><p class="user-email">alex@spendwise.ke</p></div>
+        </div>
+      </div>
+    </aside>
+
+    <header class="header">
+      <div class="header-left"><h2>Dashboard Overview</h2><p>Track your spending - October 2026</p></div>
+      <div class="header-right">
+        <div class="balance"><span class="label">Total Balance</span><span class="amount">KES 84,500</span></div>
+        <button class="btn-primary">+ Add Expense</button>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="cards-grid">
+        <div class="card" tabindex="0"><div class="card-top"><div class="icon-box food">🍔</div><span class="trend up">+12%</span></div><h3>Food & Dining</h3><p class="card-amount">KES 12,400</p><div class="progress"><div class="progress-bar" style="width:62%"></div></div><span class="card-meta">62% of monthly budget</span></div>
+        <div class="card" tabindex="0"><div class="card-top"><div class="icon-box transport">🚌</div><span class="trend down">-5%</span></div><h3>Transport</h3><p class="card-amount">KES 5,800</p><div class="progress"><div class="progress-bar transport" style="width:45%"></div></div><span class="card-meta">45% of monthly budget</span></div>
+        <div class="card" tabindex="0"><div class="card-top"><div class="icon-box rent">🏠</div><span class="trend neutral">0%</span></div><h3>Rent & Housing</h3><p class="card-amount">KES 25,000</p><div class="progress"><div class="progress-bar rent" style="width:100%"></div></div><span class="card-meta">Paid on Oct 3rd</span></div>
+        <div class="card" tabindex="0"><div class="card-top"><div class="icon-box entertainment">🎬</div><span class="trend up">+22%</span></div><h3>Entertainment</h3><p class="card-amount">KES 4,200</p><div class="progress"><div class="progress-bar entertainment" style="width:35%"></div></div><span class="card-meta">35% of monthly budget</span></div>
+        <div class="card highlight" tabindex="0"><div class="card-top"><div class="icon-box savings">💰</div><span class="trend up">+8%</span></div><h3>Savings</h3><p class="card-amount">KES 18,000</p><div class="progress"><div class="progress-bar savings" style="width:72%"></div></div><span class="card-meta">72% towards KES 25k goal</span></div>
+        <div class="card" tabindex="0"><div class="card-top"><div class="icon-box utilities">💡</div><span class="trend down">-10%</span></div><h3>Utilities</h3><p class="card-amount">KES 3,750</p><div class="progress"><div class="progress-bar utilities" style="width:55%"></div></div><span class="card-meta">KPLC + Water + WiFi</span></div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
